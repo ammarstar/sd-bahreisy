@@ -1,0 +1,313 @@
+body{
+  background-color: rgb(73, 251, 10);
+}
+a{
+  text-decoration: none;
+  color: rgb(5, 8, 0);
+}
+/* p{
+margin:10px 5px;
+font-size:14px;
+text-align:justify;
+} */
+.judul{
+  font-size: 30px;
+}
+.isi{
+  font-size: 18px;
+  text-align:justify;
+
+}
+/* .judul_profil{
+  font-size: 30px;
+}
+.isi_profil{
+  font-size: 18px;
+  font-family: sans-serif;
+} */
+.utama_gambar img{
+  height: 200px;
+  width: 350px;
+}
+.wrap{
+  overflow: hidden;
+  width: 1000px;
+  background-color: rgb(254, 254, 254);
+  margin: auto;
+  padding: 10px;
+}
+
+.header img{
+  height: 300px;
+  width: 1000px;
+
+}
+  /* awal bagian menu */
+.menu{
+  height: 50px;
+  width: 1000px;
+  border: 1px solid rgb(148, 90, 4);
+  background-color: rgb(73, 251, 10);
+}
+.menu ul{
+  margin: 0px;
+  padding: 0px;
+
+}
+.menu ul li{
+  display: inline;
+  margin-left: 10px;
+  line-height: 50px;
+  font-size: 18px;
+  border: 1px solid rgb(79, 68, 9);
+  padding: 10px;
+  border-radius: 10px;
+}
+.menu ul li:hover{
+  background-color: rgb(233, 246, 14);
+  /* padding: 15px; */
+}
+  /* akhir bagian menu */
+
+.content{
+  overflow: hidden;
+  width: 1000px;
+  margin: 5px 0px;
+}
+.content_kiri{
+  overflow: hidden;
+  width: 740px;
+  float: left;
+  padding-right: 10px;
+}
+.content_kiri img{
+  height:300px;
+  width:600px;
+}
+
+/* awall penaftran */
+.pendaftaran{
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  border: 1px solid;
+  text-align: center;
+}
+.pendaftaran input{
+  height: 20px;
+  width: 300px;
+}
+/* akhir pendaftaran */
+
+/* tempat awal box-form */
+.box-form{
+width: 50%;
+border: 1px solid;
+overflow: hidden;
+margin: 10px auto;
+}
+.form-title{
+width: 100%;
+height: 30px;
+background-color: rgb(17, 241, 147);
+text-align: center;
+line-height: 30px;
+font-size: 18px;
+}
+.form-isi{
+  width: 100%;
+  padding: 3px;
+  text-align: center;
+}
+.form-isi input{
+  width: 90%;
+  height: 30px;
+}
+/* tempat akhir box-form */
+
+
+  /* awal bagian galeri */
+.galeri{
+  height: 100px;
+  width: 740px;
+  float: left;
+  padding-right: 10px;
+}
+.galeri img {
+  height:140px;
+  width:170px;
+  margin:20px 10px;
+  padding-right: 15px;
+}
+
+  /* akhir bagian galeri */
+
+  /* isi awal dalam galeri */
+.isi_folder img{
+  height: 230px;
+  width: 290px;
+  float: left;
+  padding: 5px 40px 5px 5px;
+
+}
+  /* isi akhir dalam galeri */
+
+
+    /* awal bagian kanan */
+.content_kanan{
+  width: 250px;
+  float: left;
+}
+  /* awal bagian kanan pencarian*/
+.kanan_pencarian{
+  height: 110px;
+  width: 250px;
+  background-color: #999999;
+  padding-top: 10px;
+  border: 1px solid;
+}
+.kanan_pencarian_atas{
+  height: 30px;
+  width: 220px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  background-color: rgb(25, 53, 246);
+  border: 1px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.kanan_pencarian_bawah{
+  height: 25px;
+  width: 210px;
+  background-color: rgb(230, 226, 223);
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+  /* akhir bagian kanan pencarian*/
+
+  /* awal bagian kanan login*/
+.kanan_login{
+  height: 150px;
+  width: 250px;
+  background-color: #999999;
+  padding-top: 10px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+.kanan_login_atas{
+  height: 30px;
+  width: 220px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  background-color: rgb(25, 53, 246);
+  border: 1px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.kanan_login_bawah{
+  width:210px;
+  height:70px;
+  background-color: #CCCCCC;
+  margin:10px;
+  padding:10px 10px;
+  padding-bottom: 15px;
+  border-radius:5px;
+}
+  /* akhir bagian kanan login*/
+
+  /* awal bagian kanan galeri*/
+.kanan_galeri{
+  height: 200px;
+  width: 250px;
+  background-color: #999999;
+  padding-top: 10px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+.kanan_galeri_atas{
+  height: 30px;
+  width: 220px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  background-color: rgb(25, 53, 246);
+  border: 1px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.kanan_galeri_bawah img{
+width:230px;
+height:120px;
+margin:10px;
+border: 1px solid;
+}
+  /* akhir bagian kanan galeri*/
+
+  /* awal bagian kanan banner*/
+.kanan_banner{
+  height: 250px;
+  width: 250px;
+  background-color: #999999;
+  padding-top: 10px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+.kanan_banner_atas{
+  height: 30px;
+  width: 220px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  background-color: rgb(25, 53, 246);
+  border: 1px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.kanan_banner_bawah img{
+  width:230px;
+  height:70px;
+  margin:10px;
+  border: 1px solid;
+
+}
+  /* akhir bagian kanan banner*/
+
+  /* akhir bagian kanan */
+.footer{
+  height: 215px;
+  width: 1000px;
+  background-color: rgb(133, 48, 7);
+}
+.footer_kiri{
+  width: 250px;
+  float: left;
+
+}
+.footer_tengah{
+  width: 400px;
+  float: left;
+
+}
+.footer_tengah ol{
+  margin: 0px;
+  padding: 0px 20px;
+  font-size: 14px;
+}
+.footer_kanan{
+  width: 250px;
+  float: left;
+  font-size: 15px;
+}
+.footer_kanan img{
+height:40px;
+width:40px;
+margin-left:5px;
+}
+.copyright{
+  height: 30px;
+  width: 1000px;
+  background-color: #999999;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}

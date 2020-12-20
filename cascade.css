@@ -1,0 +1,286 @@
+body{
+  background-color: rgb(184, 187, 191);
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: rgb(5, 8, 0);
+}
+p{
+margin:10px 5px;
+font-size:14px;
+text-align:justify;
+}
+h2{
+  font-size: 50px;
+}
+h4{
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+h5{
+  font-size: 22px;
+  margin: 0px;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+.wrap{
+  overflow: hidden;
+  width: 800px;
+  background-color: rgb(254, 254, 254);
+  margin: auto;
+  padding: 10px;
+}
+
+.header {
+  height: 50px;
+  width: 800px;
+  text-align: center;
+  line-height: 50px;
+
+}
+  /* awal bagian menu */
+.menu{
+  height: 50px;
+  width: 800px;
+  border: 1px solid rgb(148, 90, 4);
+  background-color: rgb(122, 61, 12);
+}
+.menu ul{
+  margin: 0px;
+  padding: 0px;
+
+}
+.menu ul li{
+  display: inline;
+  margin-left: 10px;
+  line-height: 50px;
+  font-size: 18px;
+  border: 1px solid rgb(209, 249, 16);
+  padding: 10px;
+  border-radius: 10px;
+}
+.menu ul li:hover{
+  background-color: rgb(233, 246, 14);
+  /* padding: 15px; */
+}
+  /* akhir bagian menu */
+
+.content{
+  overflow: hidden;
+  width: 800px;
+  margin: 5px 0px;
+}
+.content_kiri{
+  /* height: 100px; */
+  width: 800px;
+  float: left;
+  overflow: hidden;
+}
+.content_kiri img{
+  height:130px;
+  width:160px;
+  margin:20px 10px;
+}
+.content_kiri ol{
+  margin: 0px;
+  padding: 0px;
+}
+.content_kiri ol li{
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  list-style-type: none;
+}
+
+    /* awal bagian kanan */
+.content_kanan{
+  width: 250px;
+  float: left;
+}
+  /* awal bagian kanan pencarian*/
+.kanan_pencarian{
+  height: 110px;
+  width: 250px;
+  background-color: #999999;
+  padding-top: 10px;
+  border: 1px solid;
+}
+.kanan_pencarian_atas{
+  height: 30px;
+  width: 220px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  background-color: rgb(25, 53, 246);
+  border: 1px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.kanan_pencarian_bawah{
+  height: 25px;
+  width: 210px;
+  background-color: rgb(230, 226, 223);
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+  /* akhir bagian kanan pencarian*/
+
+  /* awal bagian kanan login*/
+.kanan_login{
+  height: 150px;
+  width: 250px;
+  background-color: #999999;
+  padding-top: 10px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+.kanan_login_atas{
+  height: 30px;
+  width: 220px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  background-color: rgb(25, 53, 246);
+  border: 1px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.kanan_login_bawah{
+  width:210px;
+  height:70px;
+  background-color: #CCCCCC;
+  margin:10px;
+  padding:10px 10px;
+  padding-bottom: 15px;
+  border-radius:5px;
+}
+  /* akhir bagian kanan login*/
+
+  /* awal bagian kanan galeri*/
+.kanan_galeri{
+  height: 200px;
+  width: 250px;
+  background-color: #999999;
+  padding-top: 10px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+.kanan_galeri_atas{
+  height: 30px;
+  width: 220px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  background-color: rgb(25, 53, 246);
+  border: 1px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.kanan_galeri_bawah img{
+width:230px;
+height:120px;
+margin:10px;
+border: 1px solid;
+}
+  /* akhir bagian kanan galeri*/
+
+  /* awal bagian kanan banner*/
+.kanan_banner{
+  height: 250px;
+  width: 250px;
+  background-color: #999999;
+  padding-top: 10px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+.kanan_banner_atas{
+  height: 30px;
+  width: 220px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  background-color: rgb(25, 53, 246);
+  border: 1px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.kanan_banner_bawah img{
+  width:230px;
+  height:70px;
+  margin:10px;
+  border: 1px solid;
+
+}
+  /* akhir bagian kanan banner*/
+
+  /* akhir bagian kanan */
+.footer{
+  height: 215px;
+  width: 800px;
+  background-color: rgb(133, 48, 7);
+}
+.footer_kiri{
+  width: 150px;
+  float: left;
+
+}
+.footer_tengah{
+  width: 400px;
+  float: left;
+
+}
+.footer_tengah ol{
+  margin: 0px;
+  padding: 0px 20px;
+  font-size: 14px;
+}
+.footer_kanan{
+  width: 250px;
+  float: left;
+  font-size: 15px;
+}
+.footer_kanan img{
+height:40px;
+width:40px;
+margin-left:5px;
+}
+.copyright{
+  height: 30px;
+  width: 800px;
+  background-color: #999999;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+  /* tempat admin */
+.admin_header{
+  height: 150px;
+  width: 800px;
+}
+/* awal bagian menu */
+.admin_menu{
+height: 50px;
+width: 800px;
+border: 1px solid rgb(148, 90, 4);
+background-color: rgb(73, 251, 10);
+}
+.admin_menu ul{
+margin: 0px;
+padding: 0px;
+
+}
+.admin_menu ul li{
+display: inline;
+margin-left: 10px;
+line-height: 50px;
+font-size: 18px;
+border: 1px solid rgb(79, 68, 9);
+padding: 10px;
+border-radius: 10px;
+}
+.admin_menu ul li:hover{
+background-color: rgb(233, 246, 14);
+/* padding: 15px; */
+}
+/* akhir bagian menu */
